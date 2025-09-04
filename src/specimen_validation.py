@@ -1,6 +1,6 @@
 """Pre-analytical checks of specimens."""
 
-HEMOLYSIS_SENSITIVE = ["POTASSIUM"]
+HEMOLYSIS_SENSITIVE = ["POTASSIUM", "LDH", "AST"]
 
 
 def is_hemolyzed(hemolysis_index):
