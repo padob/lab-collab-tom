@@ -10,5 +10,5 @@ def is_hemolyzed(hemolysis_index):
 
 def validate_specimen(test_name, hemolysis_index):
     if test_name in HEMOLYSIS_SENSITIVE and is_hemolyzed(hemolysis_index):
-        return "REJECTED: hemolyzed specimen"
+        return "REJECTED: hemolyzed specimen (HI=%.1f g/L)" % hemolysis_index
     return "OK"
