@@ -1,5 +1,6 @@
 11111111111111111111111111111111
 22222o
+333333333333333333333333333
 # lab-results-service
 
 Receives results from laboratory analyzers, validates specimens,
