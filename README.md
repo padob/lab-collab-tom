@@ -1,3 +1,4 @@
+11111111111111111111111111111111
 # lab-results-service
 
 Receives results from laboratory analyzers, validates specimens,
